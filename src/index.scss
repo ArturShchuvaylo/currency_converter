@@ -69,24 +69,8 @@ body {
       background-color: #108144;
       color: #fff;
     }
-
-    // &:last-of-type {
-    //   display: inline-flex;
-    //   align-items: center;
-    //   flex: 0 0 50px;
-    //   border-right: 0;
-
-    //   svg {
-    //     width: 16px;
-    //     height: 16px;
-    //   }
-    // }
   }
 }
-
-
-
-
 
 .header {
   display: flex;
@@ -108,13 +92,15 @@ body {
 .header__rates {
   display: flex;
   align-items: center;
+  gap: 30px;
 }
 
 .header__rate {
+  width: 80px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-right: 20px;
+
 }
 
 .header__currency {
